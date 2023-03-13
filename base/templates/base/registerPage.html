@@ -1,0 +1,80 @@
+{% extends 'main.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="container-fluid mt-5">
+    <div class="row d-flex justify-content-center" style="background-color: #0F75BC;">
+        <div class="col d-flex justify-content-center">
+            <h1 class="text-center text-white" style="font-weight: 900;"> Pick a shore buddy to register </h1>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center mt-1 p-5">
+
+        <div class="col-2 d-flex justify-content-center mx-2">
+            <div class="d-flex justify-content-center" style="border-radius: 30px;">
+                <a href="#"> <img class = "shadow-lg" src="{% static 'images/turtle.png' %}" alt="turtle" style="width: 200px; height: 200px; border-radius: 30px;"> </a>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex justify-content-center mx-2">
+            <div class="d-flex justify-content-center" style="border-radius: 30px;">
+                <a href="#"> <img class = "shadow-lg" src="{% static 'images/whale.png' %}" alt="turtle" style="width: 200px; height: 200px; border-radius: 30px;"> </a>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex justify-content-center mx-2">
+            <div class="d-flex justify-content-center" style="border-radius: 30px;">
+                <a href="#"> <img class = "shadow-lg" src="{% static 'images/seal.png' %}" alt="turtle" style="width: 200px; height: 200px; border-radius: 30px;"> </a>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex justify-content-center mx-2">
+            <div class="d-flex justify-content-center" style="border-radius: 30px;">
+                <a href="#"> <img class = "shadow-lg" src="{% static 'images/dolphin.png' %}" alt="turtle" style="width: 200px; height: 200px; border-radius: 30px;"> </a>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex justify-content-center mx-2">
+            <div class="d-flex justify-content-center" style="border-radius: 30px;">
+                <a href="#"> <img class = "shadow-lg" src="{% static 'images/seagull.png' %}" alt="turtle" style="width: 200px; height: 200px; border-radius: 30px;"> </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="container mt-1" style="margin-bottom: 700px;">
+    <div class="row">
+        <div class="col">
+            <p class="text-center"> Don't have a Shore Buddy to register? </p>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <a class="shadow-lg btn d-flex justify-content-center" href="{% url 'login2' %}" style="background-color: #0F75BC; width: 400px; height: 60px; border-radius: 150px;">
+                <h5 class="text-center text-white" style="margin-top: 12px;"> Sign up for a Freemium Account </h2>
+            </a>
+        </div>
+    </div>
+ </div> 
+
+
+
+
+
+ 
+    
+
+{% endblock %}
+
