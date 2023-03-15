@@ -11,6 +11,11 @@ urlpatterns = [
     path('login2', views.login2, name='login2'), #login page
 
     #userReg urls
+    path('testPage1/', views.testPage1, name='testPage1'),
+    path('registerFreemium/', views.registerFreemium, name='registerFreemium'),
+    path('registerTurtle/', views.registerTurtle, name='registerTurtle'),
+
+
 
     
 ]
